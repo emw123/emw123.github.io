@@ -1,0 +1,66 @@
+body {
+    background-color: #fca6c9;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}  
+
+.size {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.quote {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.intro {
+    
+    color: white;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.steps {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+img.center {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.signature {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.steps {
+    font-weight: bold;
+    text-align: left;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
