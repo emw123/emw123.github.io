@@ -1,0 +1,83 @@
+.checkpoint {
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid black;
+    width: 700px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.leaves {
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid black;
+    width: 700px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.ok {
+    background-color: blue;
+    color: #fcfbfb;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    max-width: 50px;
+    margin-left: 300px;
+}
+
+.oops {
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid black;
+    width: 700px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.wrong {
+    font-size: 20px;
+}
+
+.issue {
+    font-size: 20px;
+    color: blue;
+}
+
+.example {
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid black;
+    width: 700px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-size: 20px;
+}
+
+.thumb-up{
+    background-color: blue;
+    color: #fcfbfb;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    max-width: 100px;
+}
+
+.thumb-down {
+    background-color: gray;
+    color: #fcfbfb;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    max-width: 50px;
+}
+
