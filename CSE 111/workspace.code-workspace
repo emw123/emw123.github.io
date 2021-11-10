@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\git\\cit 171\\stedi-content"
+		},
+		{
+			"path": "..\\..\\..\\..\\git"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "stedi-content"
+	}
+}

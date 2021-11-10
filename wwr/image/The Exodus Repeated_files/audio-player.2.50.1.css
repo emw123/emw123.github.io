@@ -1,0 +1,112 @@
+.wrapper-3Zj5Q {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.player-2F2I8 {
+    flex-basis: 100%;
+    background: var(--background-primary, var(--white));
+    color: var(--text-primary, var(--black));
+    padding: var(--spacing10) 10%;
+    box-shadow: 0 -2px 5px 0 rgba(74, 74, 74, 0.1);
+    pointer-events: all
+}
+
+@media (min-width: 60em) {
+
+.player-2F2I8 {
+        padding: var(--spacing10) 25%
+}
+    }
+
+.button-3rT9e[class] {
+    align-self: center;
+    margin-bottom: var(--spacing40);
+    margin-right: var(--spacing40);
+    padding: 0;
+    box-shadow: var(--boxShadowDetached);
+    transform: translateY(0);
+    transition: transform .4s .5s cubic-bezier(.4,0,.2,1), background-color .3s;
+    color: var(--background-primary, var(--white));
+    background-color: var(--accent, var(--blue25));
+    pointer-events: all
+}
+
+.button-3rT9e[class]:hover {
+        background-color: var(--accent-focus, var(--blue30));
+        color: var(--background-primary, var(--white));
+    }
+
+.button-3rT9e[class].hide-1CaqN {
+        transform: translateY(100px);
+    }
+
+.button-3rT9e[class]:active {
+        outline: none;
+    }
+
+@media (min-width: 80em) {
+        .button-3rT9e[class].hide-1CaqN {
+            transform: translateY(0);
+        }
+    }
+
+.menu-EtyD0 {
+    position: fixed;
+    bottom: 90px;
+}
+
+.moreMenu-1SPek {
+    padding: var(--spacing10);
+    min-width: 128px;
+}
+
+@media print {
+    .wrapper-3Zj5Q{
+        display: none;
+    }
+}
+
+/* These styles are probabably very delacate as they reach into the player and adjust the css manualy */
+
+.player-2F2I8 button {
+        color: var(--text-primary, var(--black))
+    }
+
+.player-2F2I8 button[aria-checked="false"] {
+            background-color: var(--background-primary, var(--white));
+            border-color: var(--border-primary, var(--grey10));
+        }
+
+.player-2F2I8 button[aria-checked="true"] {
+            background-color: var(--accent, var(--info40));
+            border-color: var(--accent, var(--info40));
+        }
+
+.player-2F2I8 div[role="slider"] div {
+        background-color: var(--accent, var(--blue20));
+    }
+
+.player-2F2I8 #audio-menu,
+    .player-2F2I8 button[type="button"] + div {
+        color: var(--text-primary, var(--black));
+        background-color: var(--background-primary, var(--white));
+        border-color: var(--border-primary, var(--grey10))
+    }
+
+.player-2F2I8 #audio-menu div::after, .player-2F2I8 button[type="button"] + div div::after {
+            border-top-color: var(--background-primary, var(--white));
+        }
+
+.player-2F2I8 #audio-menu div::before, .player-2F2I8 button[type="button"] + div div::before {
+            border-top-color: var(--border-primary, var(--grey10));
+        }
+
+
+
+
+/*# sourceMappingURL=audio-player.2.50.1.css.map*/
