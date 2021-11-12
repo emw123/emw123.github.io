@@ -259,4 +259,99 @@ nav {
     footer {
         margin-top: 25px;
     }
+
+    
+}
+
+
+.page-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 600px 620px 200px;
+}
+.rivers-heading {
+    grid-column: 1/2;
+    grid-row:1/4 ;
+    font-size: 50px;
+    text-align: center;
+    background-color:#6f7364 ;
+    height: 60px;
+    border-radius: 15px;
+}
+.main-fork {
+    grid-column: 2/2;
+    grid-row: 2/4; 
+    font-size: 20px;
+    height: 550px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color:#94FBAB;
+    margin-right: 40px;
+}
+.main-fork-heading {
+    font-size: 40px;
+}
+.main-fork-image {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    height: 550px;
+    width: 740px;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+.desolation {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 20px;
+    width:740px;
+    height: 430px;
+    margin-top: -40px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color:#94FBAB;
+
+}
+.desolation-heading {
+    font-size: 40px; 
+}
+.desolation-image {
+    grid-column:2/2;
+    grid-row: 3/4;
+    font-size: 20px;
+    width: 600px;
+    height: 430px;
+    border-radius: 15px;
+    border: 5px solid black;
+    margin-top: -40px;
+    margin-right:40px;
+}
+
+.grand-canyon {
+    grid-column: 2/2;
+    grid-row: 4/4;
+    margin-top: -220px;
+    margin-bottom: -100px;
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 500px;
+    background-color:#94FBAB;
+    margin-right:40px;
+}
+
+.grand-canyon-heading {
+    font-size: 40px; 
+}
+.grand-canyon-image {
+    grid-column: 1/2;
+    grid-row: 4/4;
+    margin-top: -220px;
+    margin-bottom: -200px;
+    width: 740px;
+    height:500px;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+.page-2-footer {
+    margin-top: 90px
 }
