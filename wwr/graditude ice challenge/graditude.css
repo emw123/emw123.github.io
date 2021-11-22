@@ -1,0 +1,30 @@
+main {
+    text-align: center;
+    background-color: black;
+
+}
+
+.rock {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 650px;
+    height: 500px;
+}
+
+.quote {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 30px;
+}
+
+.name {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 40px;
+}
