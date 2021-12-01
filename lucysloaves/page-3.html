@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="styles/site-plam.css">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>Lucy's Loaves | Page 3</title>
 </head>
 <body>
@@ -15,9 +15,9 @@
         </a>
         <nav>
             <a href = 'index.html'>Home</a>
-            <a href = 'page-2.html'>Page 2</a>
-            <a href = 'page-3.html'>Page 3</a>
-            <a href = 'order.html'>Order Now!</a>
+            <a href = 'page-2.html'>Who This Is For</a>
+            <a href = 'page-3.html'>How It Should Work</a>
+            <a href = 'order.html'>Order Now</a>
             <a href = 'contact.html'>Contact Us</a>
         </nav>
     </header>
@@ -31,9 +31,30 @@
         <img src="rolls.jpg" alt="image for page3" width = 300px height = 300px>
         </section>
     <footer>
-        <h3>Lucy's Loaves &copy; 2021 - Emma Ward</h3>
-        <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
-        <h3><a href="contactus.html">Contact Us</a></h3>
+        <h3 class = copyright>Lucy's Loaves &copy; 2021 - Emma Ward</h3>
+        <h3><a href="contact.html">Contact Us</a></h3>
+        <h3><a href = 'styles/site.plam.css'>Site Plan</a></h3>
+        <div id="fullnav" class="fullscreen">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="fullscreen-content">
+                <a href = 'index.html'>Home</a>
+                <a href = 'page-2.html'>Who This Is For</a>
+                <a href = 'page-3.html'>How It Should Work</a>
+                <a href = 'order.html'>Order Now</a>
+                <a href = 'contact.html'>Contact Us</a>
+            </div>
+          
+            </div>
+            <span class = 'menu' onclick="openNav()">Navigation</span>
+            <script>
+                function openNav() {
+                  document.getElementById("fullnav").style.width = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("fullnav").style.width = "0%";
+                }
+                </script>
         <div class="social">
             <a href="https://facebook.com" target = '_blank'>
                 <img src="facebook.png" alt="fb icon">

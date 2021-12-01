@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="styles/site-plam.css">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>Lucy's Loaves | Page 2</title>
 </head>
 <body>
@@ -15,26 +15,50 @@
         </a>
         <nav>
             <a href = 'index.html'>Home</a>
-            <a href = 'page-2.html'>Page 2</a>
-            <a href = 'page-3.html'>Page 3</a>
-            <a href = 'order.html'>Order Now!</a>
+            <a href = 'page-2.html'>Who This Is For</a>
+            <a href = 'page-3.html'>How It Should Work</a>
+            <a href = 'order.html'>Order Now</a>
             <a href = 'contact.html'>Contact Us</a>
         </nav>
     </header>
-    <section>
-        <h2>Who This Site Is For</h2>
-        <h2>Lucy</h2>
-        <p>This site is for Lucy. Lucy is my sister, and she has worked very hard to make this business a reality. This is site is being built so that her efforts will continue to be noticed, and so that more people will begin to realize that she has done this incredible thing. This business is so amazing because at the moment, Lucy is only twelve years old, and she is already partially running her own business. She has begun to achieve something that many grown adults struggle to begin. This site is a way to showcase her success as well as her wonderful products, and to help her gain more publicity so that her business can continue to grow along with her.</p>
-        <h2>The Customers</h2>
-        <p>This site is also for Lucy’s customers. Many people have expressed their love for Lucy’s products, and have even requested certain items to be made again over Facebook. This site will help the customers to put in orders in a way that is easier for Lucy to see, so that she can work to provide these customers with what they want, and so that they have an easier way of accessing those products that she works so diligently to make. </p>
-    
-          <img src="roundloaves.jpg" alt="image for page" width = 300px height = 300px>
-          <img src="braidedloaves.jpg" alt="image for page"width = 300px height = 300px >
+    <h2 class = 'site''>Who This Site Is For</h2>
+    <section class = 'who'>
+        <div class = 'lucy-section'>
+            <h2 class = 'lucy-heading'>Lucy</h2>
+            <p class = 'lucy-paragraph'>This site is for Lucy. Lucy is my sister, and she has worked very hard to make this business a reality. This is site is being built so that her efforts will continue to be noticed, and so that more people will begin to realize that she has done this incredible thing. This business is so amazing because at the moment, Lucy is only twelve years old, and she is already partially running her own business. She has begun to achieve something that many grown adults struggle to begin. This site is a way to showcase her success as well as her wonderful products, and to help her gain more publicity so that her business can continue to grow along with her.</p>
+        </div>
+        <div class = 'customers'>
+            <h2 class = 'customers-heading'>The Customers</h2>
+            <p class = 'customers-paragraph'>This site is also for Lucy’s customers. Many people have expressed their love for Lucy’s products, and have even requested certain items to be made again over Facebook. This site will help the customers to put in orders in a way that is easier for Lucy to see, so that she can work to provide these customers with what they want, and so that they have an easier way of accessing those products that she works so diligently to make. </p>
+        </div>
+        <img class = 'round' src="roundloaves.jpg" alt="image for page">
+        <img class = 'braided' src="braidedloaves.jpg" alt="image for page">
     </section>
     <footer>
-        <h3>Lucy's Loaves &copy; 2021 - Emma Ward</h3>
-        <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
-        <h3><a href="contactus.html">Contact Us</a></h3>
+        <h3 class = copyright>Lucy's Loaves &copy; 2021 - Emma Ward</h3>
+        <h3><a href="contact.html">Contact Us</a></h3>
+        <h3><a href = 'styles/site.plam.css'>Site Plan</a></h3>
+        <div id="fullnav" class="fullscreen">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="fullscreen-content">
+                <a href = 'index.html'>Home</a>
+                <a href = 'page-2.html'>Who This Is For</a>
+                <a href = 'page-3.html'>How It Should Work</a>
+                <a href = 'order.html'>Order Now</a>
+                <a href = 'contact.html'>Contact Us</a>
+            </div>
+          
+            </div>
+            <span class = 'menu' onclick="openNav()">Navigation</span>
+            <script>
+                function openNav() {
+                  document.getElementById("fullnav").style.width = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("fullnav").style.width = "0%";
+                }
+                </script>
         <div class="social">
             <a href="https://facebook.com" target = '_blank'>
                 <img src="facebook.png" alt="fb icon">
