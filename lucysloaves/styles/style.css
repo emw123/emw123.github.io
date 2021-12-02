@@ -152,7 +152,7 @@ nav a:hover {
 }
 .fancy-msg {
   position: absolute;
-  top: 80%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #8FA6CB;
@@ -207,13 +207,32 @@ nav a:hover {
   grid-row: 1/2;
 }
 
+
 .access {
   font-size: 40px;
   color: #4EFFEF;
 }
 
+.lucy-heading {
+  font-size: 35px;
+  color: #4EFFEF;
+}
+
+.customers-heading {
+  font-size: 35px;
+  color: #4EFFEF;
+}
+
 .access-paragraph {
   font-size: 35px;
+}
+
+.lucy-paragraph {
+  font-size: 28px;
+}
+
+.customers-paragraph {
+  font-size: 25px;
 }
 
 .working {
@@ -285,4 +304,46 @@ nav a:hover {
 
 .menu {
   font-size: 20px;
+}
+
+.who {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 800px 400px;
+
+}
+
+.lucy-section {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.round {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  max-width: 100%;
+  max-height: 700px;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.customers {
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
+
+.braided {
+  grid-column: 2/2;
+  grid-row: 2/2;
+  max-width:100%;
+  max-height: 400px;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.site {
+  font-size:50px;
+  color: #4EFFEF;
 }
